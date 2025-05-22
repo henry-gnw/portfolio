@@ -5,7 +5,6 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-
 .name-highlight {
   color: blue;
 }
@@ -17,7 +16,19 @@
   height: 180px;
   background-size: cover;
 }
-
+.project-title {
+  display: table-cell;
+  vertical-align: middle;
+}
+.portfolio-item {
+  background-color: grey;
+  height: 350px;
+  width: 350px;
+}
+.profile {
+  height: 300px;
+  border-radius: 50%;
+}
 .wrapper {
   position: absolute;
   display: table;
@@ -35,15 +46,6 @@
   -moz-transition: opacity 0.2s ease-out;
   -o-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
-}
-.project-title {
-  display: table-cell;
-  vertical-align: middle;
-}
-.portfolio-item {
-  background-color: grey;
-  height: 350px;
-  width: 350px;
 }
 div.wrapper div.project-title h2 {
   color: #fff;
