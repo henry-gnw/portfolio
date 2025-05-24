@@ -6,14 +6,13 @@
   font-variation-settings: "wdth" 100;
 }
 .name-highlight {
-  color: blue;
+  color: rgb(0, 109, 252);
 }
 .top-header {
   background-color: white;
 }
 .hero-image {
-  height: 100vh;
-  width: auto;
+  width: 100%;
 }
 .bg-cover {
   width: 100%;
