@@ -139,3 +139,28 @@ body {
   background-color: rgb(255, 227, 135);
   padding: 2px 2px;
 }
+
+.mininyx-loop-carousel {
+  width: 100%;
+  max-width: 100%;
+  background: #fff;
+}
+.mininyx-carousel-track {
+  display: flex;
+  animation: mininyx-scroll 16s linear infinite;
+  will-change: transform;
+}
+@keyframes mininyx-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.mininyx-carousel-track img {
+  margin-right: 32px;
+  display: block;
+  max-height: 100%;
+  max-width: none;
+}
